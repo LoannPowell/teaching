@@ -1,0 +1,51 @@
+.card {
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    animation: background-animation 2s linear infinite;
+}
+
+.rotation {
+    animation: lds-dual-ring 5s linear infinite;
+}
+
+.card h1 {
+    color: black;
+}
+.card i {
+    color: black;
+    font-size: 50px;
+}
+
+.card i:hover {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.card i:active {
+    color: aquamarine;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes background-animation {
+    0% {
+      background-color: aquamarine;
+    }
+    50% {
+      background-color: aqua;
+    }
+    100% {
+        background-color: aquamarine;
+      }
+}
