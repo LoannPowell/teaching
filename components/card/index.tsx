@@ -1,13 +1,15 @@
 import styles from './index.module.css'
 interface Props {
-    icon: string
+    icon: string,
+    title: string,
+    animation: boolean,
 }
 
-const Card: React.FC<Props> = ({icon}) => {
+const Card: React.FC<Props> = ({icon, title, animation}) => {
     return (
         <div className={styles.card}>
-            <h1>{icon.toLocaleUpperCase()}</h1>
-            <div className={icon === 'cog' ?  styles.rotation : ''}>
+            <h1>{title}</h1>
+            <div className={animation ?  styles.rotation : ''}>
                 <i className={`icon-${icon}`}></i>
             </div>
         </div>

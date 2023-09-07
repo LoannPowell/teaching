@@ -3,9 +3,7 @@
     background-color: aqua;
     border-radius: 10px;
     text-align: center;
-    width: 150px;
-    height: 150px;
-    animation: background-animation 2s linear infinite;
+    animation: background-animation 5s linear infinite;
 }
 
 .rotation {
@@ -13,10 +11,10 @@
 }
 
 .card h1 {
-    color: black;
+    color: white;
 }
 .card i {
-    color: black;
+    color: white;
     font-size: 50px;
 }
 
@@ -47,5 +45,5 @@
     }
     100% {
         background-color: aquamarine;
-      }
+    }
 }
