@@ -1,10 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-Clone the repository with git clone and the url
+Clone the repository with 
+```bash
+git clone https://github.com/LoannPowell/teaching.git
+```
+Go to the file:
 ```bash
 cd teaching
 ```
+Install dependencies:
 ```bash
 npm i
 ```
